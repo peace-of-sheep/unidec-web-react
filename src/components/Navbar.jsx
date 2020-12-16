@@ -1,6 +1,5 @@
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -35,9 +34,6 @@ const Navbar = () => {
 						src="https://i.imgur.com/1O3kPqf.png"
 						alt=""
 					/>
-					{/* <Typography variant="h6" className={classes.title}>
-						Title
-					</Typography> */}
 				</Toolbar>
 			</AppBar>
 		</>

@@ -28,12 +28,6 @@ const useStyles = makeStyles((theme) => ({
 	},
 }));
 
-const PanelOne = ({ title }) => {};
-
-const PanelTwo = ({ title }) => {};
-
-const PanelThree = ({ title }) => {};
-
 const TabPanel = ({ item, onButtonClick }) => {
 	const classes = useStyles();
 	return (
