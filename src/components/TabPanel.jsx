@@ -40,12 +40,12 @@ const TabPanel = ({ item, onButtonClick }) => {
 					{item.text}
 				</Typography>
 				<Button
-					variant="contained"
+					variant="text"
 					color="secondary"
 					className={classes.button}
 					onClick={() => onButtonClick(true)}
 				>
-					Registrarse
+					{item.buttonText}
 				</Button>
 			</Paper>
 		</div>

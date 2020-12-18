@@ -53,27 +53,30 @@ const Parallax = () => {
 	const items = [
 		{
 			id: 0,
-			label: "Sars cov 2",
+			label: "COVID-19",
 			text:
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum urna in dui mattis pretium. Mauris at congue ipsum. Etiam ut fermentum odio. Maecenas elementum suscipit ornare.",
+				"Nuestra Unidad de ensayos clínicos, siempre preocupada por el bienestar de nuestra comunidad, se encuentra buscando a los héroes de la pandemia que están decididos a poner el hombro para luchar contra el COVID-19.",
+			buttonText: "Poner el hombro",
 			icon: <HealingIcon />,
 			imgUrl:
 				"https://larepublica.pe/resizer/f_HncIkxVfUMOP7CAaixmBoMzHQ=/1250x735/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/7UQYOCVZZRA53BMN5LT6KLGY4M.jpeg",
 		},
 		{
 			id: 1,
-			label: "Sida",
+			label: "VIH",
 			text:
-				"Aenean feugiat sem at nisi maximus faucibus. Integer lacinia lectus velit, nec egestas elit fringilla eu. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+				"Desde hace más de 4 décadas que el VIH nos ataca, en la actualidad afecta a XXX personas en todo mundo, hoy en CITBM creemos estar muy cerca de de poder encontrar por fin una vacuna, pero necesitamos de los héroes que nuestra lucha necesita para ganar esta guerra.",
+			buttonText: "Sé un héroe",
 			icon: <FavoriteBorderIcon />,
 			imgUrl:
 				"https://larepublica.pe/resizer/FVXE_AR_o0czgIpGFVVdmZpjpm8=/1250x735/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/TWTJK2B6AFA43HJVUKU5TACZ7E.jpg",
 		},
 		{
 			id: 2,
-			label: "Cancer",
+			label: "Papiloma",
 			text:
 				"Duis aliquam quis mauris sit amet aliquam. Mauris elementum leo nisi, quis ornare ligula pretium et. Mauris at pulvinar sapien, id ultricies enim.",
+			buttonText: "Registrarse",
 			icon: <LocalHospitalIcon />,
 			imgUrl:
 				"https://larepublica.pe/resizer/QDN46yKBNgudopHYGt2U6C_VmYg=/1250x735/top/smart/cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/LFYJXDNEKZEWTOJ377P7TUXMMY.jpg",
